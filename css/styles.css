@@ -1,0 +1,85 @@
+body {
+  font-family: "Solway", serif;
+  font-size: 20px;
+}
+/* the landing page */
+#image {
+  text-align: center;
+  background-image: url("assets/backgrounds/h_img.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  padding: 250px;
+  color: white;
+}
+/* about us */
+.about {
+  text-align: center;
+}
+
+.services {
+  text-align: center;
+  background-image: url("assets/backgrounds/s_image.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  padding: 150px;
+  color: white;
+}
+.aboutus {
+  text-align: center;
+}
+h2 {
+  text-align: center;
+}
+.icons {
+  display: flex;
+  justify-content: space-around;
+  padding-top: 40px;
+  padding-bottom: 30px;
+}
+.contact {
+  background-color: transparent;
+  background-image: url("assets/backgrounds/c_image.jpg");
+  padding: 250px;
+}
+
+ /* the portfolio hover */
+.myportfolio {
+  background-size: cover;
+  height: 250px;
+  width: 250px;
+}
+.work1 {
+  background: url("./assets/portfolio/work1.jpg");
+}
+.work2 {
+    background: url("./assets/portfolio/work2.jpg");
+  }
+  .work3 {
+    background: url("./assets/portfolio/work3.jpg");
+  }
+  .work4 {
+    background: url("./assets/portfolio/work4.jpg");
+  }
+  .work5 {
+    background: url("./assets/portfolio/work5.jpg");
+  }
+  .work6 {
+    background: url("./assets/portfolio/work6.jpg");
+  }
+  .work7 {
+    background: url("./assets/portfolio/work7.jpg");
+  }
+  .work8 {
+    background: url("./assets/portfolio/work8.jpg");
+  }
+.project {
+  width: 200px;
+  height: 200px;
+  background-color: rgba(255, 255, 255, 0.678);
+  margin-left: 20px;
+  opacity: 0;
+}
+.project p{
+    text-align: center;
+    padding-top: 60px;
+}
