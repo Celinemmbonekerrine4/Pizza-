@@ -1,0 +1,53 @@
+/* the nav bar */
+h2{
+    font-family: 'Architects Daughter', cursive;
+    color: coral;
+    font-size: 60px;
+}
+span{
+    color: rgb(187, 157, 146);
+}
+nav ul{
+    list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+}
+ul li{
+    display: inline;
+    float: left;
+}
+li a{
+    display: block;
+  color: rgb(187, 157, 146);
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+}
+li a:hover{
+    color:coral;
+    text-decoration: none;
+}
+.nav{
+    border: 3px 3px transparent;
+    box-shadow: 5px 5px 10px rgb(218, 160, 226);
+    position: relative;
+}
+/* the landing page */
+h1{
+    font-family: 'Architects Daughter', cursive;
+    font-size: 70px;
+    text-align: center;
+    color: chocolate;
+    text-shadow: 3px 3px 5px black;
+}
+.home{
+    background-image: url("https://bit.ly/2tgdS1x");
+    background-repeat: no-repeat;
+    background-size: cover;
+    padding: 350px;
+}
+/* about pizza corner */
+.about{
+    text-align: center;
+}
