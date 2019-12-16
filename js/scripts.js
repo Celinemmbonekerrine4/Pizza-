@@ -1,5 +1,5 @@
 $(document).ready(function() {
-  //form function to submit the users input, calculate total for the order, and prompt the user for some details
+//form function to submit the users input, calculate total for the order, and prompt the user for some details
   $("#text-center").submit(function(event) {
     //functions to get user input from the forms
     function flavor() {
@@ -22,7 +22,7 @@ $(document).ready(function() {
       var pizzaNumber = document.getElementById("quantity").value;
       return parseInt(pizzaNumber);
     }
-z   
+
     //a constructor to create objects/instances of a user's orders
     function Order(flavor, size, crust, topping, quantity) {
       this.newFlavor = flavor;
