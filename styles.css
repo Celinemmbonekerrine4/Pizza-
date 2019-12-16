@@ -48,7 +48,7 @@ h1{
     padding: 350px;
 }
 /* about pizza corner */
-.about{
+#about{
     text-align: center;
 }
 p{
@@ -92,7 +92,7 @@ p{
     padding: 2%;
 }
 /* menu */
-.menu{
+#menu{
     display: flex;
     flex-wrap: wrap;
     justify-content: space-around;
@@ -134,3 +134,65 @@ p{
     color: white;
     transform: rotateY(180deg);
   }
+  
+  .img2,.img3,.img4{
+    margin-right: 3%; 
+    overflow: hidden;
+    object-fit: cover;
+    border-radius: 20px;
+    transition-duration: 0.2s;
+  }
+  .img2:hover{
+    box-shadow: 0 0 4px 3px;
+    transition: 0.5s;
+}
+
+.img2 img{
+    border-radius: 10px;
+}
+
+.img2:hover{
+    transform: scale(1.2);
+    transition-delay: 0.1s;
+   
+}
+.img3:hover{
+    box-shadow: 0 0 4px 3px;
+    transition: 0.5s;
+}
+
+.img3 img{
+    border-radius: 10px;
+}
+
+.img3:hover{
+    transform: scale(1.2);
+    transition-delay: 0.1s;
+   
+}
+.img4:hover{
+    box-shadow: 0 0 4px 3px;
+    transition: 0.5s;
+}
+
+.img4 img{
+    border-radius: 10px;
+}
+
+.img4:hover{
+    transform: scale(1.2);
+    transition-delay: 0.1s;
+   
+}
+/* Form */
+.submit{
+    color: coral;
+    font-size: 40px;
+}
+button{
+    color: darkgray;
+}
+button:hover{
+    color: rgb(73, 95, 69);
+}
+
